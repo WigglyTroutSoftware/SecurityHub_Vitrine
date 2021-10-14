@@ -14,11 +14,11 @@ fi
 # Docker create volume
 if [[ -z `docker volume ls | grep securityhub_conf` ]]
 then
-	docker volume create --driver local --opt o=bind --opt type=none --opt device=$this_path/securityhub_conf securityhub_conf
+	docker volume create --driver local --opt o=bind --opt type=none --opt device=$this_path/securityhub_conf/shiro.ini securityhub_conf
 fi
 
 # Start the container
 echo "--> Start SecurityHub container"
-docker run -d --name securityhub --mount source=securityhub_conf,target=/opt/zeppelin/conf -p 8080:8080 securityhub/securityhubrepo:$version_img
+docker run -d --name securityhub --mount source=securityhub_conf,target=/opt/zeppelin/conf/shiro.ini -p 8080:8080 securityhub/securityhubrepo:$version_img
 
 echo "Security Hub is live"
