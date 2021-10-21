@@ -16,7 +16,7 @@ fi
 # Start the container
 echo "--> Start SecurityHub container"
 docker run -d --name $container_name --mount type=bind,source="$(pwd)"/securityhub_conf/shiro.ini,target=/opt/zeppelin/conf/shiro.ini \
-	--mount type=bind,source="$(pwd)"/securityhub_conf/shiro.ini,target=/opt/zeppelin/conf/shiro.ini \
+	--mount type=bind,source="$(pwd)"/securityhub_conf/zeppelin-site.xml,target=/opt/zeppelin/conf/zeppelin-site.xml \
 	-p 8080:8080 $name_img:$version_img
 
 # Change uid and gi of snatch user container
