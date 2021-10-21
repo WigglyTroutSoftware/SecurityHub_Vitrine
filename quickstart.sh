@@ -2,7 +2,7 @@
 echo "Let's go :"
 
 # Variable
-container_name='securityhub'
+container_name='hub'
 this_path=`pwd`
 name_img="securityhub/securityhubrepo"
 version_img="salmon"
@@ -15,7 +15,7 @@ fi
 
 # Start the container
 echo "--> Start SecurityHub container"
-docker run -d --name $container_name --mount source=securityhub_conf/shiro.ini,target=/opt/zeppelin/conf/shiro.ini -p 8080:8080 $name_img:$version_img
+docker run -d --name $container_name --mount type=bind,source="$(pwd)"/securityhub_conf/shiro.ini,target=/opt/zeppelin/conf -p 8080:8080 $name_img:$version_img
 
 # Change uid and gi of snatch user container
 echo "--> Set user"
