@@ -1,5 +1,7 @@
 # SecurityHub
-Vitrine repository for SecurityHub
+Vitrine repository for SecurityHub.
+
+Prerequisite: Docker
 
 To install Security Hub:
 - $ git clone https://github.com/wigglytrout/SecurityHub.git
