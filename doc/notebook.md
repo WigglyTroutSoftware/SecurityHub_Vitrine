@@ -9,7 +9,7 @@ A notebook is a document that contains the inputs and outputs of a interactive s
 
 While navigating on Security Hub, users have access to the list all notebooks available per folder. Notebooks are represented under the form of cards with different fields.
 
-![Drag Racing](/img/notebook_card.png)
+![Notebook card](/img/notebook_card.png)
 
 The information available on the cards are:
 - Active users
@@ -26,12 +26,12 @@ Actions that can be done from the cards are:
 # Layout
 Each notebook is composed of 1 .. N paragraphs. The notebook can be viewed as a paragraph container.
 
-![Drag Racing](/img/notebook_layout.png)
+![Notebook layout](/img/notebook_layout.png)
 
 ## Paragraph
 Each paragraph consists of 2 sections: code section where you put your source code and result section where you can see the result of the code execution.
 
-![Drag Racing](/img/paragraph_layout.png)
+![Paragraph layout](/img/paragraph_layout.png)
 
 On the top-right corner of each paragraph there are some commands to:
 - execute the paragraph code
@@ -40,7 +40,7 @@ On the top-right corner of each paragraph there are some commands to:
 - configure the paragraph
 
 To configure the paragraph, just click on the gear icon:
-![Drag Racing](/img/paragraph_configuration_dialog.png)
+![Paragraph confi dialog](/img/paragraph_configuration_dialog.png)
 
 From this dialog, you can (in descending order):
 - find the **paragraph id** ( 20150924-163507_134879501 )
@@ -58,7 +58,7 @@ From this dialog, you can (in descending order):
 ## Notebook toolbar
 At the top of the note, you can find a toolbar which exposes command buttons as well as configuration, security and display options.
 
-![Drag Racing](/img/note_toolbar.png)
+![Note toolbar](/img/note_toolbar.png)
 
 On the far right is displayed the notebook name, just click on it to reveal the input form and update it.
 
