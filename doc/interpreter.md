@@ -5,7 +5,7 @@ This section explain the role of Interpreters, interpreters group and interprete
 
 # What is an interpreter?
 
-Security Hub Interpreter is the plug-in which enable a user to use a specific language/data-processing-backend. For example to use python code in Zeppelin, you need `python` interpreter.
+Security Hub Interpreter is the plug-in which enable a user to use a specific language/data-processing-backend. For example to use python code in Security Hub, you need `python` interpreter.
 
 When you click on the `+Create `button in the interpreter page the interpreter drop-down list box will present all the available interpreters on your server.
 
@@ -13,7 +13,7 @@ When you click on the `+Create `button in the interpreter page the interpreter d
 
 # What is an interpreter setting?
 
-Interpreter setting is the configuration of a given interpreter on Security Hub server. For example, the properties requried for JDBC interpreter to connect to the database.
+Interpreter setting is the configuration of a given interpreter on Security Hub server. For example, the properties required for JDBC interpreter to connect to the database.
 
 
 <img src="/img/interpreter_setting.png" alt="drawing" width="800"/>
