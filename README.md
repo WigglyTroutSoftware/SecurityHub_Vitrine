@@ -4,7 +4,7 @@ Vitrine repository for SecurityHub.
 Prerequisite: Docker
 
 To install Security Hub:
-- $ git clone https://github.com/wigglytrout/SecurityHub.git
+- $ git clone https://github.com/WigglyTroutSoftware/SecurityHub_Vitrine.git
 - $ cd SecurityHub && bash quickstart.sh
 
 This is going to launch a webserver runnning on http://localhost:8080
