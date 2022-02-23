@@ -2,6 +2,7 @@
 Vitrine repository for SecurityHub.
 
 Prerequisite: Docker
+We recommend at least 2cpu and 14GB of memory available.
 
 To install Security Hub:
 - $ git clone https://github.com/WigglyTroutSoftware/SecurityHub_Vitrine.git
